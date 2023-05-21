@@ -20,9 +20,8 @@ function App() {
     return (
         <div>
             <h1>こんにちは！</h1>
-            <ColoredMessage></ColoredMessage>
-            <ColoredMessage color="blue" message="お元気ですか？"></ColoredMessage>
-            <p style={contentPinkStyle}>元気です！</p>
+            <ColoredMessage color="blue">元気ですか？</ColoredMessage>
+            <ColoredMessage color="pink">元気です！</ColoredMessage>
             <button onClick={onClickButton}>ボタン</button>
         </div>
     );
